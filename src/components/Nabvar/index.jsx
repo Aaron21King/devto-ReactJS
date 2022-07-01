@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { FaDev } from "react-icons/fa";
 
 const Navigation = (props) => {
@@ -23,7 +23,6 @@ const Navigation = (props) => {
           <button>Create account</button>
         </div>
       </div>
-
     </header>
   );
 };
