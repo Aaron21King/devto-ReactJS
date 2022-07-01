@@ -14,7 +14,7 @@ export default function Login() {
         <button className= "btn-github"> <img src="https://img.icons8.com/fluency/344/github.png" alt="Trulli" width="20" height="20"></img> Continue with GitHub </button>
         <button className= "btn-twitter"> <img src="https://img.icons8.com/android/344/twitter.png" alt="Trulli" width="20" height="20"></img> Continue with Twitter </button>
       </div>
-          <p className= "password-title">Have a password? Continue with your email address</p>
+          <p className= "password-title">---------Have a password? Continue with your email address---------</p>
           <p>Email</p>
           <input className="inputs" type="email" />
           <p>Password</p>

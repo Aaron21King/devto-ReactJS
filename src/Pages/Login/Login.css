@@ -28,7 +28,7 @@ body {
 }
 
 .btn-apple:hover {
-    background-color: #1a1f21;
+    background-color: #3e5259;
 }
 
 .btn-forem {
@@ -55,7 +55,7 @@ body {
 }
 
 .btn-github:hover {
-    background-color: #181c1f; 
+    background-color: #424c54; 
 }
 
 
@@ -65,7 +65,7 @@ body {
     width: 544px;
     height: 48px;
     border-radius: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .btn-twitter:hover {
@@ -82,6 +82,7 @@ input {
     height: 48px;
     border-radius: 8px;
     border: solid 1px lightgray;
+    margin-bottom: 15px;
 }
 
 .btn-continue {
@@ -102,4 +103,5 @@ input {
 
 a:visited {
     color: blue;
+    font-size: small;
 }
