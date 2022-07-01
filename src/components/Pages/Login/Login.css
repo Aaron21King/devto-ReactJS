@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+.container {
+    background: white;
+    width: 700px;
+    height: 900px;
+    border-radius: 10px;
+
+}
+
+.greet {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.btn-apple {
+    background-color: #252a2d;
+    color: azure;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.btn-apple:hover {
+    background-color: #3e5259;
+}
+
+.btn-forem {
+    background-color: #0a3e4a;
+    color: azure;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.btn-forem:hover {
+    background-color: #06303a;
+}
+
+
+.btn-github {
+    background-color: #252a2d;
+    color: azure;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.btn-github:hover {
+    background-color: #424c54; 
+}
+
+
+.btn-twitter {
+    background-color: #1da1f2;
+    color: azure;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.btn-twitter:hover {
+    background-color: #1286cf;
+}
+
+.password-title {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 10px;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    border: solid 1px lightgray;
+    margin-bottom: 15px;
+}
+
+.btn-continue {
+    background-color: #3b48df;
+    color: azure;
+    width: 544px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    cursor: pointer
+}
+
+.btn-continue:hover {
+    background-color: #2b38c9;
+}
+
+a:visited {
+    color: blue;
+    font-size: small;
+}
