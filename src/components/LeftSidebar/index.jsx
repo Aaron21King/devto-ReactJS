@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import {
   FcHome,
   FcViewDetails,
@@ -39,10 +39,10 @@ const tags = [
 ];
 
 const LeftSidebar = (props) => {
-  const [more, setmore] = useState(false);
-  const toggle = () => {
-    setmore(!more);
-  };
+  // const [more, setmore] = useState(false);
+  // const toggle = () => {
+  //   setmore(!more);
+  // };
   return (
     <>
       <aside className="leftBar">
@@ -140,38 +140,38 @@ const LeftSidebar = (props) => {
                 </a>
               </li>
               <header>
-            <h3>Other</h3>
+                <h3>Other</h3>
 
-            <li>
-                <a href="">
-                  <i>
-                    <FcCheckmark />
-                  </i>
-                  Code of Conduct
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcApprove />
-                  </i>
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcBinoculars />
-                  </i>
-                  Terms of use
-                </a>
-              </li>
-          </header>
+                <li>
+                  <a href="">
+                    <i>
+                      <FcCheckmark />
+                    </i>
+                    Code of Conduct
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i>
+                      <FcApprove />
+                    </i>
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i>
+                      <FcBinoculars />
+                    </i>
+                    Terms of use
+                  </a>
+                </li>
+              </header>
             </div>
           </ul>
         </nav>
 
-        <div >
+        <div>
           <a href="">
             <i>
               <IoLogoTwitter />
@@ -201,9 +201,7 @@ const LeftSidebar = (props) => {
         <nav className="leftBar__taglist">
           <header>
             <h3>Popular Tags</h3>
-            <i>
-              
-            </i>
+            <i></i>
           </header>
           <ul>
             {tags.map((tag, id) => {
@@ -229,128 +227,128 @@ const LeftSidebar = (props) => {
 
             <div className="hamburger__content__items">
               <nav className="leftBar__menu">
-              <ul>
-            <li>
-              <a href="">
-                <i>
-                  <FcHome />
-                </i>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i>
-                  <FcViewDetails />
-                </i>
-                Listings
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i>
-                  <AiFillAudio />
-                </i>
-                Podcasts
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i>
-                  <FcVideoCall />
-                </i>
-                Videos
-              </a>
-            </li>
+                <ul>
+                  <li>
+                    <a href="">
+                      <i>
+                        <FcHome />
+                      </i>
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i>
+                        <FcViewDetails />
+                      </i>
+                      Listings
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i>
+                        <AiFillAudio />
+                      </i>
+                      Podcasts
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i>
+                        <FcVideoCall />
+                      </i>
+                      Videos
+                    </a>
+                  </li>
 
-            <li>
-              <a href="">
-                <i>
-                  <FaTags />
-                </i>
-                Tags
-              </a>
-            </li>
+                  <li>
+                    <a href="">
+                      <i>
+                        <FaTags />
+                      </i>
+                      Tags
+                    </a>
+                  </li>
 
-            <div>
-              <li>
-                <a href="">
-                  <i>
-                    <FcIdea />
-                  </i>
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcShop />
-                  </i>
-                  Forem Shop
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcLike />
-                  </i>
-                  Sponsors
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FaDev />
-                  </i>
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcBusinessContact />
-                  </i>
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcReading />
-                  </i>
-                  Guides
-                </a>
-              </li>
-              <header>
-            <h3>Other</h3>
+                  <div>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FcIdea />
+                        </i>
+                        FAQ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FcShop />
+                        </i>
+                        Forem Shop
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FcLike />
+                        </i>
+                        Sponsors
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FaDev />
+                        </i>
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FcBusinessContact />
+                        </i>
+                        Contact
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i>
+                          <FcReading />
+                        </i>
+                        Guides
+                      </a>
+                    </li>
+                    <header>
+                      <h3>Other</h3>
 
-            <li>
-                <a href="">
-                  <i>
-                    <FcCheckmark />
-                  </i>
-                  Code of Conduct
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcApprove />
-                  </i>
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <i>
-                    <FcBinoculars />
-                  </i>
-                  Terms of use
-                </a>
-              </li>
-          </header>
-            </div>
-          </ul>
+                      <li>
+                        <a href="">
+                          <i>
+                            <FcCheckmark />
+                          </i>
+                          Code of Conduct
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i>
+                            <FcApprove />
+                          </i>
+                          Privacy Policy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i>
+                            <FcBinoculars />
+                          </i>
+                          Terms of use
+                        </a>
+                      </li>
+                    </header>
+                  </div>
+                </ul>
               </nav>
               <div>
                 <a href="">

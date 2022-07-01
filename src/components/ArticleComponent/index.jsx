@@ -1,9 +1,5 @@
-import React from "react";
+// import React from "react";
 
-
-const ArticleComponent = (props) => {
-  
-
-};
+const ArticleComponent = (props) => {};
 
 export default ArticleComponent;
