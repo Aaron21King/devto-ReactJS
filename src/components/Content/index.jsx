@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ArticleComponent from "../ArticleComponent";
 
 const Content = () => {
@@ -15,8 +15,6 @@ const Content = () => {
           articles.map((article, id) => {
             return <ArticleComponent key={id} data={article} />;
           })}
-
-        
       </div>
     </main>
   );
