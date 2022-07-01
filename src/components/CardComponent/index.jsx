@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { deletePost } from "../../services/posts/deletePost";
 import { getPosts } from "../../services/posts/getPosts";
 
 //Estilos
@@ -51,6 +52,10 @@ export default function CardComponent() {
     };
     list();
   }, []);
+
+  useEffect(() => {
+    deletePost("-N2Cm4uQLno8Z0hA6Usf");
+  });
 
   const createPostCards = (post, index) => (
     <div key={index} className="postCard">
