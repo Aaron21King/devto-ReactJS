@@ -1,3 +1,4 @@
+$hovercolor: rgba(113, 18, 144, 0.244);
 *,
 *::before,
 *::after {
@@ -137,8 +138,11 @@ ul {
           margin-right: 0.5rem;
   
           &:hover {
-            background-color: blue;
+            background-color: $hovercolor;
           }
+        }
+        Link:hover{
+          background-color: purple;
         }
        
   
@@ -150,4 +154,5 @@ ul {
   
     
   }
+
   

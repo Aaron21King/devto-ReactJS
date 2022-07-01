@@ -7,9 +7,9 @@ const Content = () => {
   return (
     <main className="main-content">
       <header>
-        <h1>Relevant</h1>
-        <h1>Lates</h1>
-        <h1>Post</h1>
+        <span>Relevant</span>
+        <span>Lates</span>
+        <span>Post</span>
       </header>
       <CardComponent />
     </main>

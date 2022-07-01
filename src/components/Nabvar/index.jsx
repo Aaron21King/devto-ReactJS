@@ -1,7 +1,10 @@
 // import React, { useState } from "react";
 import { FaDev } from "react-icons/fa";
 
+import { useNavigate } from "react-router-dom";
+
 const Navigation = (props) => {
+  let navigate = useNavigate();
   return (
     <header className="header">
       <div className="headerContainer">
@@ -20,7 +23,7 @@ const Navigation = (props) => {
 
         <div className="headerContainer__right">
           <button>Log in</button>
-          <button>Create account</button>
+          <button onClick={() => navigate("/create")}> Create post</button>
         </div>
       </div>
     </header>

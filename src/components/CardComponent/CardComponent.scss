@@ -1,4 +1,5 @@
 $bordercolor: rgba(128, 128, 128, 0.356);
+$hovercolor: rgba(113, 18, 144, 0.244);
 .postCard {
   display: flex;
   flex-direction: column;
@@ -43,10 +44,19 @@ $bordercolor: rgba(128, 128, 128, 0.356);
     }
   
     
-  }
+}
+
+.postCard:click{
+  border: 2px solid $hovercolor;
+}
+
+
   .title{
     text-transform: capitalize;
     margin: 1rem 5rem;
+  }
+  .title:hover{
+    color: $hovercolor;
   }
   .userPhoto{
     border-radius: 100%;
@@ -69,10 +79,10 @@ $bordercolor: rgba(128, 128, 128, 0.356);
     justify-content: space-around;
   }
   #reactions:hover{
-    background-color: rgba(113, 18, 144, 0.244);
+    background-color: $hovercolor;
   }
   #comments:hover{
-    background-color: rgba(113, 18, 144, 0.244);
+    background-color: $hovercolor;
   }
   #read{
     margin-left: auto;

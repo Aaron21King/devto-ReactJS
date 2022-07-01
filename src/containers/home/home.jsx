@@ -2,7 +2,7 @@ import Navigation from "../../components/Nabvar";
 import LeftSidebar from "../../components/LeftSidebar";
 import Content from "../../components/Content";
 import RightSidebar from "../../components/RightSidebar";
-import CardComponent from "../../components/CardComponent";
+// import CardComponent from "../../components/CardComponent";
 
 import { useState } from "react";
 
