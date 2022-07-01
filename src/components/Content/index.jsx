@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ArticleComponent from "../ArticleComponent";
+import CardComponent from "../CardComponent";
 
 const Content = () => {
   const [articles] = useState(null);
@@ -10,12 +11,7 @@ const Content = () => {
         <h1>Lates</h1>
         <h1>Post</h1>
       </header>
-      <div className="articles">
-        {articles &&
-          articles.map((article, id) => {
-            return <ArticleComponent key={id} data={article} />;
-          })}
-      </div>
+      <CardComponent />
     </main>
   );
 };
