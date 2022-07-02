@@ -2,9 +2,11 @@
   --font-color: #08090a;
 
 }
+
 .hidden {
   display: none;
 }
+
 
 .leftBar {
   .hidden {
@@ -16,6 +18,7 @@
       display: flex;
       align-items: center;
       padding: 0.5rem;
+      color: var(--main-9);
 
       i {
         font-size: 1.25rem;
@@ -23,6 +26,8 @@
       }
 
       &:hover {
+        background-color: var(--main-a);
+        color: var(--main-theme-darker);
         border-radius: 5px;
       }
     }
@@ -30,6 +35,7 @@
     .more {
       font-size: 0.875rem;
       a {
+        color: var(--main-7);
         padding-left: 2rem;
       }
     }
@@ -41,7 +47,12 @@
     margin-top: 1rem;
     a {
       font-size: 1.5rem;
+      color: var(--main-6);
       margin: 0 0.5rem;
+
+      &:hover {
+        color: var(--main-9);
+      }
     }
   }
 
@@ -59,11 +70,15 @@
       i {
         padding: 0.5rem;
         margin-right: 1rem;
+        color: var(--main-6);
         font-size: 1.5rem;
         cursor: pointer;
         border-radius: 5px;
 
-        
+        &:hover {
+          color: var(--main-9);
+          background-color: var(--main-a);
+        }
       }
     }
 
@@ -78,6 +93,8 @@
         cursor: pointer;
 
         &:hover {
+          background-color: var(--main-a);
+          color: var(--main-theme-darker);
           border-radius: 5px;
         }
       }
@@ -109,7 +126,7 @@
       display: flex;
       align-items: center;
       padding: 1rem;
-      border-bottom: 1px solid ;
+      border-bottom: 1px solid var(--main-2);
 
       h2 {
         font-size: 1.2rem;
@@ -120,13 +137,9 @@
         border-radius: 50%;
         font-size: 1.5rem;
         cursor: pointer;
+        border-color:transparent;
 
-        &:hover {
-          box-shadow: 0 0 0 5px rgba($color: #000000, $alpha: 0.05);
-          background-color: rgba($color: #000000, $alpha: 0.05);
-          color: var(--font-color);
-          z-index: 1;
-        }
+       
       }
     }
 

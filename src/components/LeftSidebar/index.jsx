@@ -172,27 +172,27 @@ const LeftSidebar = (props) => {
         </nav>
 
         <div >
-          <a href="">
+          <a className="logos">
             <i>
               <IoLogoTwitter />
             </i>
           </a>
-          <a href="">
+          <a className="logos">
             <i>
               <IoLogoFacebook />
             </i>
           </a>
-          <a href="">
+          <a className="logos">
             <i>
               <IoLogoGithub />
             </i>
           </a>
-          <a href="">
+          <a className="logos">
             <i>
               <RiInstagramFill />
             </i>
           </a>
-          <a href="">
+          <a className="logos">
             <i>
               <RiTwitchLine />
             </i>
@@ -228,7 +228,7 @@ const LeftSidebar = (props) => {
             </header>
 
             <div className="hamburger__content__items">
-              <nav className="leftBar__menu">
+              <nav classNano vi el slack me="leftBar__menu">
               <ul>
             <li>
               <a href="">
@@ -353,27 +353,27 @@ const LeftSidebar = (props) => {
           </ul>
               </nav>
               <div>
-                <a href="">
+                <a className="logos">
                   <i>
                     <IoLogoTwitter />
                   </i>
                 </a>
-                <a href="">
+                <a className="logos">
                   <i>
                     <IoLogoFacebook />
                   </i>
                 </a>
-                <a href="">
+                <a className="logos">
                   <i>
                     <IoLogoGithub />
                   </i>
                 </a>
-                <a href="">
+                <a className="logos">
                   <i>
                     <RiInstagramFill />
                   </i>
                 </a>
-                <a href="">
+                <a className="logos">
                   <i>
                     <RiTwitchLine />
                   </i>

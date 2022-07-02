@@ -1,24 +1,29 @@
 .rightBar {
-    display: flex;
-    flex-direction: column;
-  
-    &__sidebar {
-      padding: 1rem;
+  padding: 1rem;
+    border-radius: 5px;
+    line-height: 1.5;
+    height: max-content;
+
+  &__sidebar {
+    padding: 1rem;
+    border-radius: 5px;
+    line-height: 1.5;
+    width: 25rem;
+
+    img {
+      width: 30rem;
+      height: auto;
+      max-height: 50rem;
       border-radius: 5px;
-      line-height: 1.5;
-  
-      img {
-        width: 100%;
-        height: auto;
-        max-height: 100px;
-        border-radius: 5px;
-        display: inline-block;
-        margin-bottom: 1rem;
-      }
-  
-     
+      display: inline-block;
+      margin-bottom: 1rem;
     }
+
+   
   }
+
+}
+
 
   
 
