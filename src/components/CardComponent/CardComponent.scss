@@ -56,7 +56,8 @@ $hovercolor: rgba(113, 18, 144, 0.244);
     margin: 1rem 5rem;
   }
   .title:hover{
-    color: $hovercolor;
+    color: purple;
+    cursor: pointer;
   }
   .userPhoto{
     border-radius: 100%;

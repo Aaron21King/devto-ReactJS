@@ -3,11 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { deletePost } from "../../services/posts/deletePost";
 import { getPosts } from "../../services/posts/getPosts";
 
-//Estilos
-
-import "./CardComponent.scss";
-
-export default function CardComponent() {
+export default function MainCard() {
   //Local state
   const [posts, setPosts] = useState([]);
 
@@ -21,8 +17,7 @@ export default function CardComponent() {
       const parsedPosts = Object.keys(data).map((key) => {
         return { id: key, ...data[key] };
       });
-
-      setPosts(parsedPosts.reverse());
+      setPosts(parsedPosts);
     };
     list();
   }, []);
@@ -30,10 +25,15 @@ export default function CardComponent() {
   useEffect(() => {
     deletePost("-N2Cm4uQLno8Z0hA6Usf");
   });
-  const createTags = (tag) => <span>{tag}</span>;
 
-  const createPostCards = (post, index) => (
+  const MainCard = (post, index) => (
     <div key={index} className="postCard">
+      <div id="postImg">
+        <img
+          alt=""
+          src="https://res.cloudinary.com/practicaldev/image/fetch/s--pyDLAPme--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://cl.ly/188e843c2985/download/Image%25202019-02-15%2520at%25202.36.37%2520PM.png"
+        />
+      </div>
       <div className="divPhoto">
         <img alt="" className="userPhoto" src={post.userImg} />
       </div>
@@ -46,7 +46,11 @@ export default function CardComponent() {
           {post.title}
         </h2>
       </div>
-      <div>{post.hashtags.map(createTags)}</div>
+      {/* <h5>
+            {post.hastags.forEach((element) => {
+              <p>{element}</p>;
+            })}
+          </h5> */}
       <div className="reactionsInfo">
         <span className="reactInfo" id="reactions">
           <svg
@@ -80,5 +84,5 @@ export default function CardComponent() {
     </div>
   );
 
-  return <div>{posts.map(createPostCards)}</div>;
+  return <div>{posts.map(MainCard)[posts.length - 1]}</div>;
 }
