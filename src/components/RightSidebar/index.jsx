@@ -31,8 +31,8 @@ const listings = [
 const help = [
   {
     id: 1,
-    mainTitle: "Steps to Build a Zero Trust Architecture for Educational Institutions",
-
+    mainTitle:
+      "Steps to Build a Zero Trust Architecture for Educational Institutions",
   },
   {
     id: 2,
@@ -73,7 +73,8 @@ const discuss = [
   },
   {
     id: 5,
-    mainTitle: "Finnaly joined the team of devs at 'dev.to'. I am happy to be here.",
+    mainTitle:
+      "Finnaly joined the team of devs at 'dev.to'. I am happy to be here.",
     subText: "11 comments",
   },
 ];
@@ -83,17 +84,20 @@ const RightSidebar = () => {
     <aside className="rightBar">
       <div className="rightBar__sidebar">
         <p>
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3wcuFtIH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://forem.dev/remoteimages/uploads/articles/f7nihr3z8nacgyb8ptrn.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--3wcuFtIH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://forem.dev/remoteimages/uploads/articles/f7nihr3z8nacgyb8ptrn.png"
+            alt=""
+          />
         </p>
         <h2>
           <a href="/#">Forem Android App is Here</a>
         </h2>
       </div>
 
-      <CardComponent tag="Listings" articles={listings} />
+      {/* <CardComponent tag="Listings" articles={listings} />
 
       <CardComponent tag="#help" articles={help} />
-      <CardComponent tag="#discuss" articles={discuss}/>
+      <CardComponent tag="#discuss" articles={discuss}/> */}
     </aside>
   );
 };
