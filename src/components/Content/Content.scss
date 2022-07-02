@@ -1,25 +1,8 @@
 $hovercolor: rgba(113, 18, 144, 0.244);
 .main-content {
-    header {
-      display: flex;
-      flex-direction: row;
-      margin-right: auto;
-      padding: 0.5rem 0;
-      
-      
-  
-      span {
-        font-size: 1.25rem;
-        width: 6rem;
-        padding: 3px;
-        margin: 0 1rem 0 0;
-      }
 
-    }
-    span:hover{
-      color: $hovercolor;
-      background-color: white;
-      border-radius: 10px;
-    }
-  }
 
+    h1 {
+      font-size: 1.25rem;
+      flex: 1;
+    }

@@ -2,4 +2,4 @@
 
 const ArticleComponent = (props) => {};
 
-export default ArticleComponent;
+
