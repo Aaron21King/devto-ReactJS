@@ -1,21 +1,30 @@
-import React, { useState } from "react";
-import ArticleComponent from "../ArticleComponent";
+
+// import React, { useState } from "react";
+// import ArticleComponent from "../ArticleComponent";
+import CardComponent from "../CardComponent";
+import MainCard from "../mainCard/mainCard";
+
 
 const Content = () => {
-  const [articles] = useState(null);
+  // const [articles] = useState(null);
   return (
     <main className="main-content">
       <header>
-        <h1>Relevant</h1>
-        <h1>Lates</h1>
-        <h1>Post</h1>
+        <span>Relevant</span>
+        <span>Lates</span>
+        <span>Post</span>
       </header>
+
       <div className="articles">
         {articles &&
           articles.map((article, id) => {
             return <ArticleComponent key={id} data={article} />;
           })}
       </div>
+
+      <MainCard />
+      <CardComponent />
+
     </main>
   );
 };
