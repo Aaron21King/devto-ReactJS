@@ -4,4 +4,8 @@
 @import "./components/LeftSidebar/LeftSidebar.scss";
 @import "./components/Nabvar/Navbar.scss";
 @import "./components/RightSidebar/RightSidebar.scss";
-@import "./components/Responsive/Responsive.scss"
+@import "./components/Responsive/Responsive.scss";
+
+body{
+    background-color:rgba(211, 211, 211, 0.241);
+}
